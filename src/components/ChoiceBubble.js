@@ -13,7 +13,7 @@ const ChoiceBubble = ({ timestamp, options, onSelect, avatarUrl }) => {
         <img src={avatarUrl} alt="Avatar" width="40px" height="40px" />
       </Box>
     )}
-    <Box borderRadius="15px" bg="#F7F9FB" p={3} mb={2} maxW="70%" alignSelf="flex-start">
+    <Box borderRadius="15px" bg="#F7F9FB" p={3} mb={2} maxW="70%" alignSelf="flex-start" boxShadow="14px 27px 45px 4px #7090B033">
       <Text fontSize="md" mb={2}>
         What would you like to order? {/* Displaying the text here */}
       </Text>

@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { ChakraProvider } from '@chakra-ui/react';
 import ChatBox from './components/ChatBox';
+import './styles/styles.css'
 import Header from './components/Header';
 
 function App() {
